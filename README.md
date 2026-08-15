@@ -8,6 +8,8 @@ Built from the waybar-era `net_speed.sh` and `system_info.py` scripts: same
 data sources (`/proc/net/dev`, `ping`, `nvidia-smi`/`rocm-smi`, `/proc/*`),
 now emitting clean JSON that the Quickshell UI renders natively.
 
+<img width="392" height="892" alt="screenshot-2026-08-15_18-15-10" src="https://github.com/user-attachments/assets/748f210b-7b6e-4a2f-8e55-a8b445dc3d86" />
+
 ## Install
 
 ```sh
