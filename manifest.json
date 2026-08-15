@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cpu-net",
+  "name": "System & Network",
+  "version": "1.0.0",
+  "author": "James Carl Necio",
+  "license": "MIT",
+  "description": "CPU/GPU/memory/disk usage, top processes, and live network speed in the bar with a details panel.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "System & Network",
+    "description": "CPU/GPU/memory/disk usage, top processes, and live network speed",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
