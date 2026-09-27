@@ -35,8 +35,8 @@ Panel {
     && root.sys.gpuMemTotal > 0
 
   // Guarded so the panel renders before the bar is injected.
-  readonly property color contentForeground: root.barForeground
-  readonly property color dim: Qt.darker(root.barForeground, 1.4)
+  readonly property color contentForeground: Color.popups.text
+  readonly property color dim: Qt.darker(root.contentForeground, 1.3)
   readonly property string contentFontFamily: bar ? bar.fontFamily : Style.font.family
 
   function switchPanel(direction) {
